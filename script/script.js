@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function submitRating(event) {
         if(rating!=null) {
-            console.log(rating);
             helloCard.style.display="none";
             thanksCard.style.display="flex";
 
