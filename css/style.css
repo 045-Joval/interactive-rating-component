@@ -27,6 +27,7 @@ main {
     background-color: #1a212b;
     max-width: 500px;
     border-radius: 20px;
+    margin: 2rem;
 }
 
 .star-div {
@@ -88,10 +89,10 @@ main {
     cursor: pointer;
 }
 
-/* .rating-btn:active {
+.rating-btn:focus {
     background-color: hsl(25, 97%, 53%);
     color: white;
-} */
+}
 
 .rating-selected {
     background-color: hsl(25, 97%, 53%);
@@ -132,6 +133,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
 
     display: none;
 }
@@ -168,4 +170,14 @@ main {
     margin-top: 0.5rem;
     font-size: 0.9rem;
     color: #af6530;
+}
+
+/* MOBILE */
+@media screen and (min-width: 576px) {
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+
 }
